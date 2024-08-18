@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "Ex1_H1.Controllers.PessoaController",
+    "Method": "CalcularIMC",
+    "RelativePath": "API/PESSOA/CalcularIMC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_pessoa",
+        "Type": "H1EX1.Models.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ex1_H1.Controllers.PessoaController",
+    "Method": "ConsultaTabelaIMC",
+    "RelativePath": "API/PESSOA/consulta-tabela-imc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imc",
+        "Type": "System.Double",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ex1_H1.Controllers.PessoaController",
+    "Method": "ConsultaTabelaIMC",
+    "RelativePath": "API/PESSOA/ConsultarTabelaIMC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imc",
+        "Type": "System.Double",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
